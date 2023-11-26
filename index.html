@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MAPA INTERACTIU</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+    integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+    crossorigin=""/>
+</head>
+<body>
+    <header>
+        <h1 style="font-family: 'Arial', sans-serif;">MAPA INTERACTIU</h1>
+        
+    </header>
+<div class="contenido">
+    
+  
+      <p style="font-family: 'Arial', sans-serif;">
+        <strong>Per què s'ha creat aquest mapa interactiu?</strong><br>
+        El mapa interactiu s'ha creat amb l'objectiu de presentar els resultats de l'estudi d'una manera més visual i intuïtiva. Després de recollir i analitzar totes les dades sobre els nivells de soroll a Taradell, es va considerar necessari trobar una forma de representar aquesta informació que fos més atractiva i fàcil de comprensió per a tothom.
+      </p>
+      
+      <p style="font-family: 'Arial', sans-serif;">
+        D'aquesta manera
+      </p>
+      
+      <p style="font-family: 'Arial', sans-serif;">
+        <strong>Com s'ha creat el mapa interactiu?</strong><br>
+        Per a la implementació del mapa interactiu s'ha utilitzat la llibreria JavaScript de codi obert Leaflet. Després d'avaluar diferents opcions, es va optar per Leaflet per la seva gran personalització que ofereix i la facilitat d'ús.
+      </p>
+      
+      <p style="font-family: 'Arial', sans-serif;">
+        Mitjançant les funcions de Leaflet, s'ha creat un mapa bàsic de Taradell i s'han afegit elements com marcadors, i línies per representar els diferents punts de mesura i les propostes de millora. També s'ha afegit interactivitat, de manera que en fer clic sobre cada marcador apareix informació com la mitjana de soroll del punt i el compliment normatiu.
+      </p>
+      
+      <p style="font-family: 'Arial', sans-serif;">
+        Per compartir el mapa interactiva s'ha publicat en una pàgina web utilitzant la plataforma GitHub, que permet allotjar el codi JavaScript i visualitzar el mapa de forma senzilla en qualsevol navegador web estàndard.
+      </p>
+      
+
+      <p style="font-family: 'Arial', sans-serif;">Fes clic aquí per veure les mesures completes: <a href="https://drive.google.com/drive/folders/1LyGpw-M6G0AEPZnsvWTECZ56BYeEX3bG?usp=sharing" class="boton" target="_blank">Veure mesures completes</a></p>
+</div>
+
+
+<div id="map"></div>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+crossorigin=""></script>
+<script src="script.js"></script>
+
+    <footer>
+        <p> Marçal Bosch Corretja - Treball de Recerca 2023</p>
+    </footer>
+</body>
+</html>
