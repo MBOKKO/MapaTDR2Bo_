@@ -1054,16 +1054,6 @@ var PMArbre = L.icon({
 var marker = L.marker([41.886320318314716, 2.2807051124223987], { icon: PMArbre }).addTo(map);
 marker.bindPopup('<span>Barrera acústica vegetal (tova)</span><br><strong>Objectiu:</strong> absorbir l´impacte en zona d´impas entre capacitats alta i baixa com la zona residencial de la Madriguera').openPopup();
 
-
-var PMCarregaDescarrga = L.icon({
-  iconUrl: 'img/icons/hora.png',
-  iconSize: [50, 50],
-  iconAnchor: [19, 38],
-  popupAnchor: [0, -38]
-});
-var marker = L.marker([41.874945784893086, 2.2854848952895024], { icon: PMCarregaDescarrga }).addTo(map);
-marker.bindPopup('<span>Regulació d’activitats, com el càrrega i descàrrega o la neteja de carrers (impulsar els vehicles i maquinària elèctrica)</span><br><strong>Objectiu:</strong> fer compatible les hores de descans amb les de més activitat.').openPopup();
-
 var PMMediador = L.icon({
   iconUrl: 'img/icons/mediador.png',
   iconSize: [50, 50],
