@@ -1184,7 +1184,7 @@ var marker = L.marker([41.866126452291404, 2.2810207096485913], { icon: PMRonda 
 marker.bindPopup('<span>Completar la construcció de les Rondes per evitar que tots els vehicles entrin al poble.</span><br><strong>Objectiu:</strong> Treure tota la contaminació acústica del trànsit de pas.').openPopup();
 
 var PMZepqa = L.icon({
-  iconUrl: '/img/icons/zepqa.png',
+  iconUrl: 'img/icons/zepqa.png',
   iconSize: [50, 75],
   iconAnchor: [19, 38],
   popupAnchor: [0, -38]
