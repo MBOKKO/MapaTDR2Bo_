@@ -1046,7 +1046,7 @@ punt16.bindPopup('<span style="font-size: 20px;"><b>Mitjana del Mes de Agost:</b
 // PART 3- PROPOSTES DE MILLORA 
 
 var PMArbre = L.icon({
-  iconUrl: '/img/icons/Tree.png',
+  iconUrl: 'img/icons/Tree.png',
   iconSize: [50, 50],
   iconAnchor: [19, 38],
   popupAnchor: [0, -38]
@@ -1056,7 +1056,7 @@ marker.bindPopup('<span>Barrera acústica vegetal (tova)</span><br><strong>Objec
 
 
 var PMCarregaDescarrga = L.icon({
-  iconUrl: '/img/icons/hora.png',
+  iconUrl: 'img/icons/hora.png',
   iconSize: [50, 50],
   iconAnchor: [19, 38],
   popupAnchor: [0, -38]
@@ -1065,7 +1065,7 @@ var marker = L.marker([41.874945784893086, 2.2854848952895024], { icon: PMCarreg
 marker.bindPopup('<span>Regulació d’activitats, com el càrrega i descàrrega o la neteja de carrers (impulsar els vehicles i maquinària elèctrica)</span><br><strong>Objectiu:</strong> fer compatible les hores de descans amb les de més activitat.').openPopup();
 
 var PMMediador = L.icon({
-  iconUrl: '/img/icons/mediador.png',
+  iconUrl: 'img/icons/mediador.png',
   iconSize: [50, 50],
   iconAnchor: [19, 38],
   popupAnchor: [0, -38]
@@ -1075,7 +1075,7 @@ marker.bindPopup('<span>Mediador acústic</span><br><strong>Objectiu:</strong> i
 
 
 var PMLliureSoroll = L.icon({
-  iconUrl: '/img/icons/NoSonido.png',
+  iconUrl: 'img/icons/NoSonido.png',
   iconSize: [50, 50],
   iconAnchor: [19, 38],
   popupAnchor: [0, -38]
@@ -1084,7 +1084,7 @@ var marker = L.marker([41.87342428463193, 2.2875445801843823], { icon: PMLliureS
 marker.bindPopup('<span>Creació Etiqueta MUNICIPI LLIURE DE SOROLL</span><br><strong>Objectiu:</strong> Buscar complicitat a tots els estaments del problema que suposa a nivell de salut, i buscar les ajudes econòmiques per portar-ho a terme.').openPopup();
 
 var PMMediador = L.icon({
-  iconUrl: '/img/icons/mediador.png',
+  iconUrl: 'img/icons/mediador.png',
   iconSize: [50, 50],
   iconAnchor: [19, 38],
   popupAnchor: [0, -38]
@@ -1093,7 +1093,7 @@ var marker = L.marker([41.87364760515468, 2.287448066396221], { icon: PMMediador
 marker.bindPopup('<span>Mediador acústic</span><br><strong>Objectiu:</strong> informar i conscienciar des de la objectivitat de les bones maneres i normes reguladores').openPopup();
 
 var PMCampFutbol = L.icon({
-  iconUrl: '/img/icons/sonido.png',
+  iconUrl: 'img/icons/sonido.png',
   iconSize: [50, 50],
   iconAnchor: [19, 38],
   popupAnchor: [0, -38]
@@ -1102,7 +1102,7 @@ var marker = L.marker([41.870244262330154, 2.2803454710771347], { icon: PMCampFu
 marker.bindPopup('<span>Barrera acústica física policarbonat (dura)</span><br><strong>Objectiu:</strong> Redireccionar els crits del públic en sentit oposat a la trama urbana (cap a dins el camp de futbol).').openPopup();
 
 var PMRadarVel1 = L.icon({
-  iconUrl: '/img/icons/radar.png',
+  iconUrl: 'img/icons/radar.png',
   iconSize: [50, 50],
   iconAnchor: [19, 38],
   popupAnchor: [0, -38]
@@ -1111,7 +1111,7 @@ var marker = L.marker([41.86556681488301, 2.2808985339023917], { icon: PMRadarVe
 marker.bindPopup('<span>Col·locació de radars acústics informatius en les entrades del poble</span><br><strong>Objectiu:</strong> fer educació i conscienciar visualment del valor acústic instantani.').openPopup();
 
 var PMRadarVel2 = L.icon({
-  iconUrl: '/img/icons/radar.png',
+  iconUrl: 'img/icons/radar.png',
   iconSize: [50, 50],
   iconAnchor: [19, 38],
   popupAnchor: [0, -38]
@@ -1120,7 +1120,7 @@ var marker = L.marker([41.87893771879964, 2.2862123773554903], { icon: PMRadarVe
 marker.bindPopup('<span>Col·locació de radars acústics informatius en les entrades del poble</span><br><strong>Objectiu:</strong> fer educació i conscienciar visualment del valor acústic instantani.').openPopup();
 
 var PMRadarVel3 = L.icon({
-  iconUrl: '/img/icons/radar.png',
+  iconUrl: 'img/icons/radar.png',
   iconSize: [50, 50],
   iconAnchor: [19, 38],
   popupAnchor: [0, -38]
@@ -1129,7 +1129,7 @@ var marker = L.marker([ 41.873604163530096, 2.2811133459598936], { icon: PMRadar
 marker.bindPopup('<span>Col·locació de radars acústics informatius en les entrades del poble</span><br><strong>Objectiu:</strong> fer educació i conscienciar visualment del valor acústic instantani.').openPopup();
 
 var PMRotonda1 = L.icon({
-  iconUrl: '/img/icons/rotonda.png',
+  iconUrl: 'img/icons/rotonda.png',
   iconSize: [50, 50],
   iconAnchor: [19, 38],
   popupAnchor: [0, -38]
@@ -1138,7 +1138,7 @@ var marker = L.marker([41.86347777886436, 2.283323756360849], { icon: PMRotonda1
 marker.bindPopup('<span>Construcció de Rotondes (a l’entrada dels 2 polígons)</span><br><strong>Objectiu:</strong> Reduir velocitat ja que està demostrat que a menys velocitat menys emissió sonora.').openPopup();
 
 var PMSotrac1 = L.icon({
-  iconUrl: '/img/icons/sotrac.png',
+  iconUrl: 'img/icons/sotrac.png',
   iconSize: [75, 75],
   iconAnchor: [19, 38],
   popupAnchor: [0, -38]
@@ -1148,7 +1148,7 @@ marker.bindPopup('<span>Plataforma elevada.</span><br><strong>Objectiu:</strong>
 
 
 var PMSotrac2 = L.icon({
-  iconUrl: '/img/icons/sotrac.png',
+  iconUrl: 'img/icons/sotrac.png',
   iconSize: [75, 75],
   iconAnchor: [19, 38],
   popupAnchor: [0, -38]
@@ -1157,7 +1157,7 @@ var marker = L.marker([41.881934739426015, 2.287512070803395], { icon: PMSotrac2
 marker.bindPopup('<span>Plataforma elevada.</span><br><strong>Objectiu:</strong> Tornar a reduir la velocitat a l’entrada del nucli urbà, indicant la prioritat de mobilitat lenta (persones, bicis...).').openPopup();
 
 var PMVelocitat301 = L.icon({
-  iconUrl: '/img/icons/velocitat.png',
+  iconUrl: 'img/icons/velocitat.png',
   iconSize: [50, 50],
   iconAnchor: [19, 38],
   popupAnchor: [0, -38]
@@ -1166,7 +1166,7 @@ var marker = L.marker([41.882267071176585, 2.2874955591788875], { icon: PMVeloci
 marker.bindPopup('<span>Canvi de paviment per un de sonoreductor.</span><br><strong>Objectiu:</strong> En un tram de velocitat intermitja (entre 30 i 50 km/h) aconseguir fer progressiva la disminució de soroll.').openPopup();
 
 var PMVelocitat302 = L.icon({
-  iconUrl: '/img/icons/velocitat.png',
+  iconUrl: 'img/icons/velocitat.png',
   iconSize: [50, 50],
   iconAnchor: [19, 38],
   popupAnchor: [0, -38]
@@ -1175,7 +1175,7 @@ var marker = L.marker([41.863605389859565, 2.2828554573340925], { icon: PMVeloci
 marker.bindPopup('<span>Canvi de paviment per un de sonoreductor.</span><br><strong>Objectiu:</strong> En un tram de velocitat intermitja (entre 30 i 50 km/h) aconseguir fer progressiva la disminució de soroll.').openPopup();
 
 var PMRonda = L.icon({
-  iconUrl: '/img/icons/ronda.png',
+  iconUrl: 'img/icons/ronda.png',
   iconSize: [50, 50],
   iconAnchor: [19, 38],
   popupAnchor: [0, -38]
@@ -1193,7 +1193,7 @@ var marker = L.marker([41.86467403767629, 2.2861953857879374], { icon: PMZepqa }
 marker.bindPopup('<span>Creació zones ZEPQA</span><br><strong>Objectiu:</strong> preservar zones d’interès natural o social per a buscar tranquil·litat.').openPopup();
 
 var PMElectric = L.icon({
-  iconUrl: '/img/icons/electric.png',
+  iconUrl: 'img/icons/electric.png',
   iconSize: [50, 50],
   iconAnchor: [19, 38],
   popupAnchor: [0, -38]
@@ -1202,7 +1202,7 @@ var marker = L.marker([41.87447942168032, 2.285702429283081], { icon: PMElectric
 marker.bindPopup('<span>Promoció de vehicles elèctrics.</span><br><strong>Objectiu:</strong> fer partícip a l’administració i serveis públics del seu compromís, per exemple els vehicles de neteja, brigada, o bus.').openPopup();
 
 var PMRevestiment = L.icon({
-  iconUrl: '/img/icons/revestiment.png',
+  iconUrl: 'img/icons/revestiment.png',
   iconSize: [50, 50],
   iconAnchor: [19, 38],
   popupAnchor: [0, -38]
@@ -1211,7 +1211,7 @@ var marker = L.marker([41.87306936528634, 2.2857348037547847], { icon: PMRevesti
 marker.bindPopup('<span>Canvi materials en edificacions (revestiment), es pot aplicar en diferents edificis</span><br><strong>Objectiu:</strong> Reduir les reverberacions dels edificis i per tant menys soroll.').openPopup();
 
 var PMCasa = L.icon({
-  iconUrl: '/img/icons/casa.png',
+  iconUrl: 'img/icons/casa.png',
   iconSize: [50, 50],
   iconAnchor: [19, 38],
   popupAnchor: [0, -38]
